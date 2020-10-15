@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://1.bp.blogspot.com/-niUSF5zo7Tk/WU2XZF6jjEI/AAAAAAAABSk/TpLh_gvYC7onkKPGnHt7ap5azXxfo-oDwCLcBGAs/s1600/34.jpg);
+}
+div {
+    text-align: center;
+    margin-left: 45em;
+    margin-top: 15em;
+    background-color: rgb(58, 118, 248);
+    display: inline-block;
+    border-radius: 1em;
+    opacity: 0.8;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1em;
+    padding-left: 1em;
+}
+
+p, label, option {
+    font-family: 'Inter', sans-serif;
+}

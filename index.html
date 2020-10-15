@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPet</title>
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1 id="principal">InstaPet</h1>
+        <p id="exp">InstaPet es una red soial enfocada a tu mascota!</p>
+        <form action="https://formspree.io/f/salvaxelement@gmail.com" method="post">
+            <label>Nombre: <input type="text" name="nombre" placeholder="Nombre de su mascota" required></label>
+            <label>Edad: <input type="number" name="edad" placeholder="Edad de su mascota" required></label> <br>
+            <label>Color: <input type="color" name="color"></label> <br>
+            <label>Email: <input type="email" placeholder="Ingrese su Email" required></label> 
+            <label>Contraseña: <input type="password" name="password" placeholder="Ingrese su contraseña" required></label> <br>
+            <label>Su mascota es:</label>
+            <label>Macho <input name="sexo" type="radio" value="mc"></label>
+            <label>Hembra <input name="sexo" type="radio" value="hb"></label> <br>
+            <label for="tipo">¿Que tipo es tu mascota?</label>
+            <select name="tipo" id="tipo">
+                <option value="dog">Perro</option>
+                <option value="cat">Gato</option>
+                <option value="hamster">Hamster</option>
+                <option value="otro">Otro</option>
+            </select> <br>
+            <label for="descr">Hace un descirpcion de tu mascota:</label> <br>
+            <textarea name="descr" id="descr" cols="40" rows="10"></textarea><br>
+            <label for="cond">Acepto los <a href="https://ichef.bbci.co.uk/news/640/cpsprodpb/7F45/production/_103518523_a7e1e6bc-ae55-4b39-aac7-70dba25e248c.jpg">Termino y Condiciones</a> 
+            <input type="checkbox" value="constent" name="mailing" required>
+            </label> <br>
+            <input class="enviar" type="submit">
+        </form>
+    </div>
+</body>
+</html>
